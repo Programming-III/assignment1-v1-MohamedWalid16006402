@@ -17,7 +17,7 @@ public:
         Animal* parrot = new Bird("parrot", 2, false, 1.5f);
         Animal* snake = new Reptile("snake", 3, true, true);
 
-        /
+        
         Enclosure* enclosure = new Enclosure(3);  
         enclosure->addAnimal(lion);
         enclosure->addAnimal(parrot);
